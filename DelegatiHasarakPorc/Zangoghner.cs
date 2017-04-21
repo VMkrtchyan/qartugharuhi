@@ -17,7 +17,7 @@ namespace DelegatiHasarakPorc
 
         public void Zang( Patasxan metod )
         {
-         metod(string.Format($"Barev, {Tip}"+$" {Name}n a")); 
+         metod(string.Format("Barev, {0} {1}n a",Tip, Name)); 
         }
 
 

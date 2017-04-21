@@ -12,18 +12,21 @@ namespace DelegatiHasarakPorc
         {
             Zangogh Shef = new Zangogh();
             Shef.Name = "Harut";
-            Shef.Zang(metod1);
             Shef.Tip = "Shef";
+            Shef.Zang(metod1);
+            
 
             Zangogh Banvor = new Zangogh();
             Banvor.Name = "Srap";
-            Banvor.Zang(metod2);
             Banvor.Tip = "banvor";
+            Banvor.Zang(metod2);
+            
 
             Zangogh Partqater = new Zangogh();
             Partqater.Name = "Smbo";
-            Partqater.Zang(metod3);
             Partqater.Tip = "Partqater";
+            Partqater.Zang(metod3);
+            
             Console.Read();
         }
             
